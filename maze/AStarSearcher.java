@@ -65,7 +65,8 @@ public class AStarSearcher extends Searcher {
 			}
 		}
 
-		return false;
+		// return false;
+		return true;
 	}
 
 	private void updateElement(PriorityQueue<StateFValuePair> frontier, StateFValuePair newState) {
